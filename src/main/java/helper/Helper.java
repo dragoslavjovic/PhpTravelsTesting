@@ -3,15 +3,13 @@ package helper;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
-import org.apache.log4j.Logger;
 
 public class Helper {
     private static String workingDirectory = System.getProperty("user.dir");
     private static String resourceFilePath = workingDirectory + "/src/main/resources/" + "login.properties";
     private static Properties properties;
-//    private static final Logger LOGGER = Logger.getLogger(Helper.class); //For getProperty2 // import org.apache.log4j.Logger;
 
-    private static void readProperties() {
+    public static void readProperties() {
         properties = new Properties();
         FileReader propertyFileReader = null;
         try {
@@ -34,6 +32,16 @@ public class Helper {
         readProperties();
         return properties.getProperty(key) == null ? "" : properties.getProperty(key);
     }
+
+//    private static final Logger LOGGER = Logger.getLogger(Helper.class); //For getProperty2 // import org.apache.log4j.Logger;
+//    public static String getProperty2(String key) {
+//        LOGGER.debug("Getting property with key: " + key);
+//        if (!properties.containsKey(key)){
+//            return null;
+//        } else {
+//            return properties.getProperty(key).equals("") ? null : properties.getProperty(key);
+//        }
+//    }
 
 //    public static boolean waitUntilElementIsLoaded(WebDriver driver, By by, long timeOutInSeconds) {
 //        WebDriverWait driverWait = new WebDriverWait(driver, timeOutInSeconds);
@@ -69,7 +77,7 @@ public class Helper {
 //        return true;
 //    }
 
-//    public String getProperty(String key) {
+//    public String getPropertyee(String key) {
 //        LOGGER.debug("Getting property with key: " + key);
 //        if (!this.properties.containsKey(key) ) {
 //            return null;
