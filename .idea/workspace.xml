@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75bd4e90-09ac-4a9d-83b7-1d2f97c30923" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/helper/Helper.java" afterPath="$PROJECT_DIR$/src/main/java/helper/Helper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HeaderPage.java" afterPath="$PROJECT_DIR$/src/main/java/pages/HeaderPage.java" />
-      <change beforePath="$PROJECT_DIR$/target/Destination/formatter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Destination/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Destination/jquery-1.8.2.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Destination/report.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/Destination/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/helper/Helper.class" afterPath="$PROJECT_DIR$/target/classes/helper/Helper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HeaderPage.class" afterPath="$PROJECT_DIR$/target/classes/pages/HeaderPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.praksa.tests.HomeTest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.praksa.tests.HomeTest.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +18,8 @@
       <file leaf-file-name="HeaderPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HeaderPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1028#1029#0" expanded="true" />
@@ -139,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/praksa/cucumber/steps/CommonSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/praksa/cucumber/steps/Drivers.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/praksa/cucumber/steps/HeaderSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/HeaderPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/helper/Helper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/HeaderPage.java" />
       </list>
     </option>
   </component>
@@ -1035,8 +1017,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/HeaderPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1028#1029#0" expanded="true" />

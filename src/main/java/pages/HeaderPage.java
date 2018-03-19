@@ -47,13 +47,13 @@ public class HeaderPage {
         By account = By.xpath(MY_ACCOUNT);
         WebElement myAccount = driver.findElement(account);
 //        if (myAccount.isDisplayed()){
-//            myAccount.click();
-//        } else {
-//            driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-//        }
+////            myAccount.click();
+////        } else {
+////            driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+////        }
 
-        if (!myAccount.isEnabled()) {
-            Thread.sleep(1000);
+        if (!myAccount.isEnabled()) {  //Another branch
+            Thread.sleep(2000);
         } else {
             myAccount.click();
         }
