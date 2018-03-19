@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 18, Skipped: 0, Time elapsed: 0.413 s <<< FAILURE! - in TestRunner
+Login page displayed(Base test)  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.NullPointerException
+
+Login page displayed(Base test)  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is logging(Login tests)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+
+User registration(Login tests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+
+User registration(Login tests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is forget password(Login tests)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is forget password(Login tests)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is forget password(Login tests)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+
+User is forget password(Login tests)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+

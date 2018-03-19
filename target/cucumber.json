@@ -1,0 +1,941 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2543703813,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login page displayed",
+        "description": "",
+        "id": "base-test;login-page-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 486391589,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2456203458,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 975848072,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to login",
+            "match": {
+              "location": "HeaderSteps.goToLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9061560,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login page displayed",
+            "match": {
+              "location": "HeaderSteps.validateOnLoginPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Base test",
+    "description": "",
+    "id": "base-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/header.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5472086858,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 925480286,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to login",
+            "match": {
+              "location": "HeaderSteps.goToLoginPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1844055671,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User is logging",
+        "description": "",
+        "id": "login-tests;user-is-logging;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 365419755,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4357406659,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user types user@phptravels.com and demouser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user@phptravels.com",
+                  "offset": 11
+                },
+                {
+                  "val": "demouser",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginSteps.loginUser(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11644956508,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is logged",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is",
+                  "offset": 5
+                }
+              ],
+              "location": "LoginSteps.validationLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3873286646,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369841735,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to login",
+            "match": {
+              "location": "HeaderSteps.goToLoginPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1818842481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User is logging",
+        "description": "",
+        "id": "login-tests;user-is-logging;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 381456471,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4303401391,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user types  and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.loginUser(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27728252,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is not logged",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "LoginSteps.validationLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4217150602,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1139757709,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to login",
+            "match": {
+              "location": "HeaderSteps.goToLoginPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1903965730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User is logging",
+        "description": "",
+        "id": "login-tests;user-is-logging;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 368098088,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4371567177,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user types  and demouser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 11
+                },
+                {
+                  "val": "demouser",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginSteps.loginUser(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28271827,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is not logged",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "LoginSteps.validationLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2137433511,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 983137540,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to login",
+            "match": {
+              "location": "HeaderSteps.goToLoginPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1829347597,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User is logging",
+        "description": "",
+        "id": "login-tests;user-is-logging;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 374789938,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4272954414,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user types user@phptravels.com and ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user@phptravels.com",
+                  "offset": 11
+                },
+                {
+                  "val": "",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginSteps.loginUser(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25784073,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is not logged",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "LoginSteps.validationLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2789773070,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 988151165,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to login",
+            "match": {
+              "location": "HeaderSteps.goToLoginPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1853547312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User is logging",
+        "description": "",
+        "id": "login-tests;user-is-logging;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 431434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4349825635,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user types user123@phptravels.com and demouser123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user123@phptravels.com",
+                  "offset": 11
+                },
+                {
+                  "val": "demouser123",
+                  "offset": 38
+                }
+              ],
+              "location": "LoginSteps.loginUser(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26248855,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is not logged",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "LoginSteps.validationLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2440569231,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 917699581,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to login",
+            "match": {
+              "location": "HeaderSteps.goToLoginPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1805028985,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User registration",
+        "description": "",
+        "id": "login-tests;user-registration",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9433\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027INTERNSHIP01\u0027, ip: \u002710.1.195.46\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00279.0.4\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:497)\r\n\tat helper.Drivers.exitBrowser(Drivers.java:47)\r\n\tat com.praksa.cucumber.steps.CommonSteps.closeBrowser(CommonSteps.java:16)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:31)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:25)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:17)\r\n\tat cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)\r\n\tat cucumber.api.TestStep.run(TestStep.java:83)\r\n\tat cucumber.api.TestCase.run(TestCase.java:58)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:80)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9433\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:104)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:54)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\t... 42 more\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)\r\n\tat java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)\r\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)\r\n\tat java.base/java.net.Socket.connect(Socket.java:591)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)\r\n\t... 63 more\r\n",
+              "duration": 1340223062,
+              "status": "failed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3150746383,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user wants to singup",
+            "match": {
+              "location": "LoginSteps.goToSingupPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15388182,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user on singup page",
+            "match": {
+              "location": "LoginSteps.validationSingUppage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2973703927,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1010156957,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to login",
+            "match": {
+              "location": "HeaderSteps.goToLoginPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1798064922,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User is forget password",
+        "description": "",
+        "id": "login-tests;user-is-forget-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 369800775,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3129289855,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is forget password",
+            "match": {
+              "location": "LoginSteps.goToFPAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3233187603,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "on forget page user types user@phptravels.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user@phptravels.com",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.sendEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4307680865,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user\u0027s user@phptravels.com is send",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user@phptravels.com",
+                  "offset": 7
+                },
+                {
+                  "val": "is",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.validationSentEmail(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2436950808,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 358896581,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user wants to login",
+            "match": {
+              "location": "HeaderSteps.goToLoginPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1917107935,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User is forget password",
+        "description": "",
+        "id": "login-tests;user-is-forget-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 360100067,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3892074798,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is forget password",
+            "match": {
+              "location": "LoginSteps.goToFPAlert()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3226686616,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "on forget page user types user123@phptravels.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user123@phptravels.com",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginSteps.sendEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4229140522,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user\u0027s user123@phptravels.com is not send",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user123@phptravels.com is",
+                  "offset": 7
+                },
+                {
+                  "val": "not",
+                  "offset": 33
+                }
+              ],
+              "location": "LoginSteps.validationSentEmail(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login tests",
+    "description": "",
+    "id": "login-tests",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/login.feature",
+    "tags": []
+  }
+]

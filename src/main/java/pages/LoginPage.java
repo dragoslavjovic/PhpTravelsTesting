@@ -55,7 +55,7 @@ public class LoginPage extends HeaderPage {
         WebElement clickLoginButton = getWebElement(By.xpath(LOGINBUTTON));
         Thread.sleep(1000);
         clickLoginButton.click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
     }
 
     public void clickSignUpButton() throws InterruptedException {

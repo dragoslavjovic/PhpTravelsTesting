@@ -1,7 +1,10 @@
 package helper;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import pages.HeaderPage;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
@@ -11,7 +14,7 @@ public class Helper {
     private static String workingDirectory = System.getProperty("user.dir");
     private static String resourceFilePath = workingDirectory + "/src/main/resources/" + "login.properties";
     private static Properties properties;
-    private WebDriver driver;
+    private static WebDriver driver;
 
     public static void readProperties() {
         properties = new Properties();
@@ -38,24 +41,22 @@ public class Helper {
     }
 
 
-
-
-//    public boolean checkElementExists(By by, int seconds) {
+//    public static boolean checkElementExists(By by, int seconds) {
 //        boolean result = false;
 //        try {
 //            driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
 //            driver.findElement(by);
 //            result = true;
-//        } catch (org.openqa.selenium.NoSuchElementException ex) {
+//        } catch (NoSuchElementException ex) {
 //            result = false;
 //        }
 //        return result;
 //    }
 //
-//    public boolean waitUtilElementIsDisplay(By by, int seconds) throws InterruptedException {
+//    public static boolean waitUtilElementIsSelected(By by, int seconds) throws InterruptedException {
 //        if (checkElementExists(by, seconds)) {
 //            for (int i = 0; i < seconds; i++){
-//                if (driver.findElement(by).isDisplayed()) {
+//                if (driver.findElement(by).isSelected()) {
 //                    return true;
 //                }
 //                return false;

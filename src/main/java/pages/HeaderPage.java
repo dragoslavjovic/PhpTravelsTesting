@@ -1,8 +1,14 @@
 package pages;
 
+import helper.Drivers;
+import helper.Helper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.concurrent.TimeUnit;
 
 public class HeaderPage {
     public WebDriver driver;
@@ -38,35 +44,35 @@ public class HeaderPage {
 
     public LoginPage clickLogIn() throws InterruptedException {
         WebElement logIn = driver.findElement(By.linkText(LOGIN));
-        Thread.sleep(3000);
+//        Thread.sleep(2000);
         logIn.click();
         return new LoginPage(driver);
     }
 
     public HeaderPage clickMyAccount() throws InterruptedException {
         By account = By.xpath(MY_ACCOUNT);
-        WebElement myAccount = driver.findElement(account);
-//        if (myAccount.isDisplayed()){
-////            myAccount.click();
-////        } else {
-////            driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-////        }
-
-        if (!myAccount.isEnabled()) {  //Another branch
-            Thread.sleep(2000);
-        } else {
-            myAccount.click();
-        }
 
 
 
-
-
-
-//        WebElement otherAccount = new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(myAccount));
-//        otherAccount.click();
-//        Thread.sleep(1000);
+//
+//        WebElement myAccount = (new WebDriverWait(driver, 10))
+//                .until(ExpectedConditions.elementToBeClickable(account));
 //        myAccount.click();
+
+
+//        WebDriverWait wait = new WebDriverWait(driver, 3);
+//        WebElement element;
+//        element = wait.until(ExpectedConditions.visibilityOfElementLocated(account));
+//        element.click();
+
+//        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//        WebElement clickAccount = getWebElement(account);
+//        clickAccount.click();
+
+        WebElement myAccount = getWebElement(account);
+//        Helper.waitUtilElementIsSelected(account,5);
+        myAccount.click();
+
         return this;
     }
 

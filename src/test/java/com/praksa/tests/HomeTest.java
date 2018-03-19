@@ -6,11 +6,11 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class HomeTest {
 
-    @Test
-    public void start() throws InterruptedException {
-        final String binaryPath = "C:\\SeleniumDrivers\\IEDriverServer.exe";
-        System.setProperty("webdriver.ie.driver", binaryPath);
-        WebDriver driver = new InternetExplorerDriver();
+//    @Test
+//    public void start() throws InterruptedException {
+//        final String binaryPath = "C:\\SeleniumDrivers\\IEDriverServer.exe";
+//        System.setProperty("webdriver.ie.driver", binaryPath);
+//        WebDriver driver = new InternetExplorerDriver();
 
 
 
@@ -26,5 +26,5 @@ public class HomeTest {
 //        Thread.sleep(3000);
 //        driver.close();
 //        driver.quit();
-    }
+//    }
 }

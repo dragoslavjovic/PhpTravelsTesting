@@ -6,9 +6,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
         features = "src/test/java/features"
         ,glue={"com.praksa.cucumber.steps"}
-        ,format={"pretty", "html:target/Destination"}
+        ,format={"json:target/cucumber.json", "html:target/site/cucumber-pretty"}
 )
-
+ //,format={"pretty", "html:target/Destination"} ,format={"json:target/cucumber.json", "html:target/site/cucumber-pretty"}
 public class TestRunner {
 
 }

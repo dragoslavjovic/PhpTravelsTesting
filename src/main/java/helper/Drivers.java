@@ -1,11 +1,12 @@
-package com.praksa.cucumber.steps;
+package helper;
 
-import helper.Helper;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
+import java.util.concurrent.TimeUnit;
 
 public class Drivers {
 
@@ -21,6 +22,7 @@ public class Drivers {
                 firefoxOptions.setCapability("marionette", false);
                 driver = new FirefoxDriver(firefoxOptions);
                 driver.manage().window().maximize();
+                driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 break;
             case "CHROME":
                 System.setProperty(Helper.getProperty("chrome.driver"), Helper.getProperty("chrome.location"));

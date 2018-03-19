@@ -3,6 +3,7 @@ package com.praksa.cucumber.steps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import helper.Drivers;
 import org.openqa.selenium.WebDriver;
 import pages.HeaderPage;
 import pages.LoginPage;
@@ -14,7 +15,7 @@ public class HeaderSteps {
     private LoginPage loginPage;
     private WebDriver driver;
 
-    private final String URL = "https://www.phptravels.net/en";
+    private final String URL = "https://www.phptravels.net";
 
     public HeaderSteps(HeaderPage headerPage, Drivers drivers) {
         this.headerPage = headerPage;
