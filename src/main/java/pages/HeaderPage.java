@@ -36,18 +36,38 @@ public class HeaderPage {
         home.click();
     }
 
-    public HeaderPage clickMyAccount() throws InterruptedException {
-        WebElement myAccount = driver.findElement(By.xpath(MY_ACCOUNT));
-        Thread.sleep(1000);
-        myAccount.click();
-        return this;
-    }
-
     public LoginPage clickLogIn() throws InterruptedException {
         WebElement logIn = driver.findElement(By.linkText(LOGIN));
         Thread.sleep(3000);
         logIn.click();
         return new LoginPage(driver);
+    }
+
+    public HeaderPage clickMyAccount() throws InterruptedException {
+        By account = By.xpath(MY_ACCOUNT);
+        WebElement myAccount = driver.findElement(account);
+//        if (myAccount.isDisplayed()){
+//            myAccount.click();
+//        } else {
+//            driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+//        }
+
+        if (!myAccount.isEnabled()) {
+            Thread.sleep(1000);
+        } else {
+            myAccount.click();
+        }
+
+
+
+
+
+
+//        WebElement otherAccount = new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(myAccount));
+//        otherAccount.click();
+//        Thread.sleep(1000);
+//        myAccount.click();
+        return this;
     }
 
     public RegisterPage clickSignUp() throws InterruptedException {

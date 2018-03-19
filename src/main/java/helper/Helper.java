@@ -1,13 +1,17 @@
 package helper;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class Helper {
     private static String workingDirectory = System.getProperty("user.dir");
     private static String resourceFilePath = workingDirectory + "/src/main/resources/" + "login.properties";
     private static Properties properties;
+    private WebDriver driver;
 
     public static void readProperties() {
         properties = new Properties();
@@ -32,6 +36,36 @@ public class Helper {
         readProperties();
         return properties.getProperty(key) == null ? "" : properties.getProperty(key);
     }
+
+
+
+
+//    public boolean checkElementExists(By by, int seconds) {
+//        boolean result = false;
+//        try {
+//            driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
+//            driver.findElement(by);
+//            result = true;
+//        } catch (org.openqa.selenium.NoSuchElementException ex) {
+//            result = false;
+//        }
+//        return result;
+//    }
+//
+//    public boolean waitUtilElementIsDisplay(By by, int seconds) throws InterruptedException {
+//        if (checkElementExists(by, seconds)) {
+//            for (int i = 0; i < seconds; i++){
+//                if (driver.findElement(by).isDisplayed()) {
+//                    return true;
+//                }
+//                return false;
+//            }
+//        }
+//        return false;
+//    }
+
+
+
 
 //    private static final Logger LOGGER = Logger.getLogger(Helper.class); //For getProperty2 // import org.apache.log4j.Logger;
 //    public static String getProperty2(String key) {
