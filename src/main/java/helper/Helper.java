@@ -1,20 +1,13 @@
 package helper;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import pages.HeaderPage;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 public class Helper {
     private static String workingDirectory = System.getProperty("user.dir");
     private static String resourceFilePath = workingDirectory + "/src/main/resources/" + "login.properties";
     private static Properties properties;
-    private static WebDriver driver;
 
     public static void readProperties() {
         properties = new Properties();

@@ -14,7 +14,7 @@ public class Drivers {
 
     public static void setDriver() {
         String browserName = System.getProperty("browser").toUpperCase();
-        
+//        String browserName = "FIREFOX";
         switch (browserName){
             case "FIREFOX":
                 System.setProperty(Helper.getProperty("firefox.driver"), Helper.getProperty("firefox.location"));

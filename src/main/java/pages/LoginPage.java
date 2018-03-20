@@ -106,6 +106,7 @@ public class LoginPage extends HeaderPage {
     public AccountPage login(String username, String password) throws InterruptedException {
         filledLogin(username, password)
                 .clickLoginButton();
+        Thread.sleep(500);
         return new AccountPage(driver);
     }
 }

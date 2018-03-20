@@ -10,5 +10,5 @@ import cucumber.api.junit.Cucumber;
 )
  //,format={"pretty", "html:target/Destination"} ,format={"json:target/cucumber.json", "html:target/site/cucumber-pretty"}
 public class TestRunner {
-
+    //mvn clean install -Dintegration-tests -Dbrowser=firefox
 }
