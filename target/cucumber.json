@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2543703813,
+              "duration": 3225094009,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 486391589,
+              "duration": 412360835,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2456203458,
+              "duration": 2458742697,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 975848072,
+              "duration": 348860229,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 9061560,
+              "duration": 616545019,
               "status": "passed"
             },
             "line": 6,
@@ -90,7 +90,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5472086858,
+              "duration": 2163769975,
               "status": "passed"
             },
             "line": 4,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 925480286,
+              "duration": 977353639,
               "status": "passed"
             },
             "line": 5,
@@ -118,7 +118,7 @@
         "before": [
           {
             "result": {
-              "duration": 1844055671,
+              "duration": 1820355158,
               "status": "passed"
             },
             "match": {
@@ -133,7 +133,7 @@
         "after": [
           {
             "result": {
-              "duration": 365419755,
+              "duration": 463598170,
               "status": "passed"
             },
             "match": {
@@ -146,7 +146,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4357406659,
+              "duration": 4265457018,
               "status": "passed"
             },
             "line": 8,
@@ -168,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 11644956508,
+              "duration": 2477567542,
               "status": "passed"
             },
             "line": 9,
@@ -195,7 +195,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3873286646,
+              "duration": 2582822375,
               "status": "passed"
             },
             "line": 4,
@@ -207,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 369841735,
+              "duration": 1043041910,
               "status": "passed"
             },
             "line": 5,
@@ -223,7 +223,7 @@
         "before": [
           {
             "result": {
-              "duration": 1818842481,
+              "duration": 1840717426,
               "status": "passed"
             },
             "match": {
@@ -238,7 +238,7 @@
         "after": [
           {
             "result": {
-              "duration": 381456471,
+              "duration": 419191494,
               "status": "passed"
             },
             "match": {
@@ -251,7 +251,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4303401391,
+              "duration": 4279048362,
               "status": "passed"
             },
             "line": 8,
@@ -273,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 27728252,
+              "duration": 23543784,
               "status": "passed"
             },
             "line": 9,
@@ -300,7 +300,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4217150602,
+              "duration": 2222640103,
               "status": "passed"
             },
             "line": 4,
@@ -312,7 +312,7 @@
           },
           {
             "result": {
-              "duration": 1139757709,
+              "duration": 977329176,
               "status": "passed"
             },
             "line": 5,
@@ -328,7 +328,7 @@
         "before": [
           {
             "result": {
-              "duration": 1903965730,
+              "duration": 1891765891,
               "status": "passed"
             },
             "match": {
@@ -343,7 +343,7 @@
         "after": [
           {
             "result": {
-              "duration": 368098088,
+              "duration": 432401682,
               "status": "passed"
             },
             "match": {
@@ -356,7 +356,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4371567177,
+              "duration": 4310789278,
               "status": "passed"
             },
             "line": 8,
@@ -378,7 +378,7 @@
           },
           {
             "result": {
-              "duration": 28271827,
+              "duration": 26463326,
               "status": "passed"
             },
             "line": 9,
@@ -405,7 +405,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2137433511,
+              "duration": 2665241408,
               "status": "passed"
             },
             "line": 4,
@@ -417,7 +417,7 @@
           },
           {
             "result": {
-              "duration": 983137540,
+              "duration": 903351614,
               "status": "passed"
             },
             "line": 5,
@@ -433,7 +433,7 @@
         "before": [
           {
             "result": {
-              "duration": 1829347597,
+              "duration": 1862136978,
               "status": "passed"
             },
             "match": {
@@ -448,7 +448,7 @@
         "after": [
           {
             "result": {
-              "duration": 374789938,
+              "duration": 403495827,
               "status": "passed"
             },
             "match": {
@@ -461,7 +461,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4272954414,
+              "duration": 4401895256,
               "status": "passed"
             },
             "line": 8,
@@ -483,7 +483,7 @@
           },
           {
             "result": {
-              "duration": 25784073,
+              "duration": 24127465,
               "status": "passed"
             },
             "line": 9,
@@ -510,7 +510,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2789773070,
+              "duration": 1966577446,
               "status": "passed"
             },
             "line": 4,
@@ -522,7 +522,7 @@
           },
           {
             "result": {
-              "duration": 988151165,
+              "duration": 909570147,
               "status": "passed"
             },
             "line": 5,
@@ -538,7 +538,7 @@
         "before": [
           {
             "result": {
-              "duration": 1853547312,
+              "duration": 1883899000,
               "status": "passed"
             },
             "match": {
@@ -553,7 +553,7 @@
         "after": [
           {
             "result": {
-              "duration": 431434000,
+              "duration": 418926960,
               "status": "passed"
             },
             "match": {
@@ -566,7 +566,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4349825635,
+              "duration": 4350367503,
               "status": "passed"
             },
             "line": 8,
@@ -588,7 +588,7 @@
           },
           {
             "result": {
-              "duration": 26248855,
+              "duration": 22816743,
               "status": "passed"
             },
             "line": 9,
@@ -615,7 +615,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2440569231,
+              "duration": 2104884487,
               "status": "passed"
             },
             "line": 4,
@@ -627,7 +627,7 @@
           },
           {
             "result": {
-              "duration": 917699581,
+              "duration": 974266275,
               "status": "passed"
             },
             "line": 5,
@@ -643,7 +643,7 @@
         "before": [
           {
             "result": {
-              "duration": 1805028985,
+              "duration": 1866240379,
               "status": "passed"
             },
             "match": {
@@ -658,9 +658,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9433\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027INTERNSHIP01\u0027, ip: \u002710.1.195.46\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00279.0.4\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:497)\r\n\tat helper.Drivers.exitBrowser(Drivers.java:47)\r\n\tat com.praksa.cucumber.steps.CommonSteps.closeBrowser(CommonSteps.java:16)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:31)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:25)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:17)\r\n\tat cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)\r\n\tat cucumber.api.TestStep.run(TestStep.java:83)\r\n\tat cucumber.api.TestCase.run(TestCase.java:58)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:80)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9433\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:104)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:54)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\t... 42 more\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)\r\n\tat java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)\r\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)\r\n\tat java.base/java.net.Socket.connect(Socket.java:591)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)\r\n\t... 63 more\r\n",
-              "duration": 1340223062,
-              "status": "failed"
+              "duration": 437963716,
+              "status": "passed"
             },
             "match": {
               "location": "CommonSteps.closeBrowser()"
@@ -672,7 +671,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3150746383,
+              "duration": 3567512700,
               "status": "passed"
             },
             "line": 19,
@@ -684,7 +683,7 @@
           },
           {
             "result": {
-              "duration": 15388182,
+              "duration": 26905638,
               "status": "passed"
             },
             "line": 20,
@@ -705,7 +704,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2973703927,
+              "duration": 2033516421,
               "status": "passed"
             },
             "line": 4,
@@ -717,7 +716,7 @@
           },
           {
             "result": {
-              "duration": 1010156957,
+              "duration": 1015912983,
               "status": "passed"
             },
             "line": 5,
@@ -733,7 +732,7 @@
         "before": [
           {
             "result": {
-              "duration": 1798064922,
+              "duration": 1805895688,
               "status": "passed"
             },
             "match": {
@@ -748,7 +747,7 @@
         "after": [
           {
             "result": {
-              "duration": 369800775,
+              "duration": 388366775,
               "status": "passed"
             },
             "match": {
@@ -761,7 +760,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3129289855,
+              "duration": 3145666483,
               "status": "passed"
             },
             "line": 23,
@@ -773,7 +772,7 @@
           },
           {
             "result": {
-              "duration": 3233187603,
+              "duration": 3225202667,
               "status": "passed"
             },
             "line": 24,
@@ -791,7 +790,7 @@
           },
           {
             "result": {
-              "duration": 4307680865,
+              "duration": 4259997667,
               "status": "passed"
             },
             "line": 25,
@@ -822,7 +821,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2436950808,
+              "duration": 2253556983,
               "status": "passed"
             },
             "line": 4,
@@ -834,7 +833,7 @@
           },
           {
             "result": {
-              "duration": 358896581,
+              "duration": 962047377,
               "status": "passed"
             },
             "line": 5,
@@ -850,7 +849,7 @@
         "before": [
           {
             "result": {
-              "duration": 1917107935,
+              "duration": 1849958471,
               "status": "passed"
             },
             "match": {
@@ -865,7 +864,7 @@
         "after": [
           {
             "result": {
-              "duration": 360100067,
+              "duration": 403449747,
               "status": "passed"
             },
             "match": {
@@ -878,7 +877,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3892074798,
+              "duration": 3124838009,
               "status": "passed"
             },
             "line": 23,
@@ -890,7 +889,7 @@
           },
           {
             "result": {
-              "duration": 3226686616,
+              "duration": 3246124154,
               "status": "passed"
             },
             "line": 24,
@@ -908,7 +907,7 @@
           },
           {
             "result": {
-              "duration": 4229140522,
+              "duration": 4245863603,
               "status": "passed"
             },
             "line": 25,
