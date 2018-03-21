@@ -34,7 +34,7 @@ public class LoginSteps{
     @And("^user types (.*) and (.*)$")
     public LoginSteps loginUser(String username, String password) throws InterruptedException {
         loginPage = new LoginPage(driver);
-        accountPage = loginPage.login(username, password);
+        accountPage = loginPage.login(Helper.getProperty(username), Helper.getProperty(password));
         return this;
     }
 
@@ -69,7 +69,7 @@ public class LoginSteps{
 
     @And("^on forget page user types (.*)$")
     public LoginSteps sendEmail (String email) throws InterruptedException {
-        loginPage.sendAlertMail(email);
+        loginPage.sendAlertMail(Helper.getProperty(email));
         return this;
     }
 
@@ -77,7 +77,7 @@ public class LoginSteps{
     public void validationSentEmail(String email, String isSent) throws InterruptedException {
         if (("is").equals(isSent)) {
             String title = driver.findElement(By.xpath(".//*[@id='passresetfrm']/div[1]/div")).getText();
-            Assert.assertEquals("Mail is not correct", title, "New Password sent to " + email + ", Kindly check email" );
+            Assert.assertEquals("Mail is not correct", title, "New Password sent to " + Helper.getProperty(email) + ", Kindly check email" );
         } else {
             String title2 = driver.findElement(By.xpath(".//*[@id='passresetfrm']/div[1]/div")).getText();
             Assert.assertEquals("Mail is correct", title2, "Email Not Found" );

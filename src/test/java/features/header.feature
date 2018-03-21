@@ -40,7 +40,7 @@ Feature: Base test
     Then blog page displayed
 
   Scenario: User logged out
-    Given user is logged with username user@phptravels.com and password demouser
+    Given user is logged with username valid.user and password valid.password
     When user wants to logout
     Then login page displayed
 

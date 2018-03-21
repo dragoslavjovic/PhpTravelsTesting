@@ -6,8 +6,15 @@ import java.util.Properties;
 
 public class Helper {
     private static String workingDirectory = System.getProperty("user.dir");
-    private static String resourceFilePath = workingDirectory + "/src/main/resources/" + "login.properties";
+    private static String resourceFilePath =workingDirectory + "/src/main/resources/" + "login.properties";
     private static Properties properties;
+
+
+//    public static String loadCurrentProperties(String currentPath) {
+//        resourceFilePath = workingDirectory + "/src/main/resources/" + currentPath;
+//        return resourceFilePath;
+//    }
+
 
     public static void readProperties() {
         properties = new Properties();

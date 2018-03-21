@@ -28,10 +28,12 @@ public class Drivers {
                 System.setProperty(Helper.getProperty("chrome.driver"), Helper.getProperty("chrome.location"));
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
+                driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 break;
             case "INTERNETEXPLORER":
                 System.setProperty(Helper.getProperty("ie.driver"), Helper.getProperty("ie.location"));
                 driver = new InternetExplorerDriver();
+                driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 break;
             default:
                 break;
