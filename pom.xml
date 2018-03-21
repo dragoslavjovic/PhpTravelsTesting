@@ -105,8 +105,8 @@
                         </goals>
                         <configuration>
                             <projectName>PhpTravelsTesting</projectName>
-                            <outputDirectory>target</outputDirectory>
-                            <cucumberOutput>target/cucumber.json</cucumberOutput>
+                            <outputDirectory>${project.build.directory}</outputDirectory>
+                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                         </configuration>
                     </execution>
                 </executions>

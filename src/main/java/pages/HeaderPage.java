@@ -11,14 +11,14 @@ public class HeaderPage {
     private final String LOGOUT = "Logout";
     private final String ACCOUNT = "Account";
     private final String LOGIN = "Login";
-    private final String SIGNUP = "Sing Up";
-    private final String HOTEL = "Hotels";
-    private final String FLIGHTS = "Flights";
-    private final String TOURS = "Tours";
-    private final String CARS = "Cars";
-    private final String OFFERS = "Offers";
-    private final String VISA = "Visa";
-    private final String BLOG = "Blog";
+    private final String SIGNUP = "html/body/div[4]/div/div/div[2]/ul/li[1]/ul/li[2]/a";
+    private final String HOTELS = ".//*[@id='offcanvas-menu']/ul/li[1]/a";
+    private final String FLIGHTS = ".//*[@id='offcanvas-menu']/ul/li[2]/a";
+    private final String TOURS = ".//*[@id='offcanvas-menu']/ul/li[3]/a";
+    private final String CARS = ".//*[@id='offcanvas-menu']/ul/li[4]/a";
+    private final String OFFERS = ".//*[@id='offcanvas-menu']/ul/li[5]/a";
+    private final String VISA = ".//*[@id='offcanvas-menu']/ul/li[6]/a";
+    private final String BLOG = ".//*[@id='offcanvas-menu']/ul/li[7]/a";
 
     public HeaderPage() {}
 
@@ -30,10 +30,11 @@ public class HeaderPage {
         return driver.findElement(selectorElements);
     }
 
-    public void clickHome() throws InterruptedException {
+    public HomePage clickHome() throws InterruptedException {
         WebElement home = driver.findElement(By.xpath(LOGOHOME));
         Thread.sleep(1000);
         home.click();
+        return new HomePage(driver);
     }
 
     public LoginPage clickLogIn() throws InterruptedException {
@@ -45,34 +46,14 @@ public class HeaderPage {
 
     public HeaderPage clickMyAccount() throws InterruptedException {
         By account = By.xpath(MY_ACCOUNT);
-
-
-
-//
-//        WebElement myAccount = (new WebDriverWait(driver, 10))
-//                .until(ExpectedConditions.elementToBeClickable(account));
-//        myAccount.click();
-
-
-//        WebDriverWait wait = new WebDriverWait(driver, 3);
-//        WebElement element;
-//        element = wait.until(ExpectedConditions.visibilityOfElementLocated(account));
-//        element.click();
-
-//        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//        WebElement clickAccount = getWebElement(account);
-//        clickAccount.click();
-
         WebElement myAccount = getWebElement(account);
-//        Helper.waitUtilElementIsSelected(account,5);
         myAccount.click();
-
         return this;
     }
 
     public RegisterPage clickSignUp() throws InterruptedException {
-        Thread.sleep(1000);
-        WebElement SignUp = driver.findElement(By.linkText(SIGNUP));
+//        Thread.sleep(1000);
+        WebElement SignUp = driver.findElement(By.xpath(SIGNUP));
         Thread.sleep(1000);
         SignUp.click();
         return new RegisterPage(driver);
@@ -93,51 +74,52 @@ public class HeaderPage {
     }
 
     public HotelPage clickHotels() throws InterruptedException {
-        WebElement hotel = driver.findElement(By.linkText(HOTEL));
+        WebElement hotel = driver.findElement(By.xpath(HOTELS));
         Thread.sleep(1000);
         hotel.click();
         return new HotelPage(driver);
     }
 
     public FlightsPage clickFlights() throws InterruptedException {
-        WebElement fligths = driver.findElement(By.linkText(FLIGHTS));
+        WebElement fligths = driver.findElement(By.xpath(FLIGHTS));
         Thread.sleep(1000);
         fligths.click();
         return new FlightsPage(driver);
     }
 
     public ToursPage clickTours() throws InterruptedException {
-        WebElement tours = driver.findElement(By.linkText(TOURS));
+        WebElement tours = driver.findElement(By.xpath(TOURS));
         Thread.sleep(1000);
         tours.click();
         return new ToursPage(driver);
     }
 
     public CarsPage clickCars() throws InterruptedException {
-        WebElement cars = driver.findElement(By.linkText(CARS));
+        WebElement cars = driver.findElement(By.xpath(CARS));
         Thread.sleep(1000);
         cars.click();
         return new CarsPage(driver);
     }
 
     public OffersPage clickOffers() throws InterruptedException {
-        WebElement offers = driver.findElement(By.linkText(OFFERS));
+        WebElement offers = driver.findElement(By.xpath(OFFERS));
         Thread.sleep(1000);
         offers.click();
         return new OffersPage(driver);
     }
 
     public VisaPage clickVisa() throws InterruptedException {
-        WebElement visa = driver.findElement(By.linkText(VISA));
+        WebElement visa = driver.findElement(By.xpath(VISA));
         Thread.sleep(1000);
         visa.click();
         return new VisaPage(driver);
     }
 
-    public void clickBlog() throws InterruptedException {
-        WebElement blog = driver.findElement(By.linkText(BLOG));
+    public BlogPage clickBlog() throws InterruptedException {
+        WebElement blog = driver.findElement(By.xpath(BLOG));
         Thread.sleep(1000);
         blog.click();
+        return new BlogPage(driver);
     }
 
     public LoginPage logOut() throws InterruptedException {

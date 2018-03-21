@@ -1,9 +1,11 @@
 package com.praksa.cucumber.steps;
 
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import helper.Drivers;
+import helper.Helper;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,13 +17,16 @@ import pages.RegisterPage;
 public class LoginSteps{
     private LoginPage loginPage;
     private HeaderPage headerPage;
+    private HeaderSteps headerSteps;
     private AccountPage accountPage;
     private RegisterPage registerPage;
+    private Helper helper;
     private WebDriver driver;
     private final String URL = "https://www.phptravels.net/login";
 
-    public LoginSteps(HeaderPage headerPage, Drivers drivers){
+    public LoginSteps(HeaderPage headerPage, Drivers drivers, HeaderSteps headerSteps){
         this.headerPage = headerPage;
+        this.headerSteps = headerSteps;
         this.driver = drivers.getDriver();
     }
 
@@ -33,7 +38,7 @@ public class LoginSteps{
         return this;
     }
 
-    @Then("^user (.*) logged$")
+    @Then("^on login page user (.*) logged$")
     public void validationLogin(String isLogged) throws InterruptedException {
         if (("is").equals(isLogged)) {
             Assert.assertTrue("User is not logged!", accountPage.getURL().equals(driver.getCurrentUrl()));
@@ -82,4 +87,12 @@ public class LoginSteps{
         String title3 = driver.findElement(By.xpath(".//*[@id='ForgetPassword']/div/div/div[1]/h4")).getText();
         Assert.assertFalse("Alert forget password is open!","Forget Password".equals(title3));
     }
+
+    @Given("^user is logged with username (.*) and password (.*)$")
+    public void userIsLogged(String username, String password) throws InterruptedException {
+        headerSteps.goToHomePage()
+                .goToLoginPage();
+        loginUser(username, password);
+    }
+
 }

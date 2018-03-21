@@ -6,7 +6,7 @@ Feature: Login tests
 
   Scenario Outline: User is logging
     And user types <username> and <password>
-    Then user <result> logged
+    Then on login page user <result> logged
    Examples:
       | username               | password    | result |
       | user@phptravels.com    | demouser    | is     |
