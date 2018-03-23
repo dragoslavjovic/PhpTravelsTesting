@@ -1,65 +1,62 @@
 package pages;
 
+import helper.Helper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.Properties;
+
 public class RegisterPage extends HeaderPage {
-    private final String url = "https://www.phptravels.net/register";
-    private final String FIRSTNAME = "firstname";
-    private final String LASTNAME = "lastname";
-    private final String MOBILENUMBER = "phone";
-    private final String EMAIL = "email";
-    private final String PASSWORD = "password";
-    private final String CONFIRMPASSWORD = "confirmpassword";
-    private final String SIGNUPBUTTON = ".//*[@id='headersignupform']/div[9]/button";
+    private static Properties propertiesFile = Helper.readProperties("locators/" + "register.properties");
+    private static Properties linkPropFile = Helper.readProperties("linksPage.properties");
 
     public RegisterPage(WebDriver driver){
         super(driver);
     }
 
     public String getUrl() {
-        return url;
+        return linkPropFile.getProperty("registerPage", "");
     }
 
     public RegisterPage setFirstName(String username) throws InterruptedException  {
         Thread.sleep(1000);
-        getWebElement(By.name(FIRSTNAME)).sendKeys(username);
+        getWebElement(By.name(propertiesFile.getProperty("firstname", ""))).sendKeys(username);
         return this;
     }
 
     public RegisterPage setLastName(String password) throws InterruptedException {
         Thread.sleep(1000);
-        getWebElement(By.name(LASTNAME)).sendKeys(password);
+        getWebElement(By.name(propertiesFile.getProperty("lastname", ""))).sendKeys(password);
         return this;
     }
 
     public RegisterPage setMobileNumber(String password) throws InterruptedException {
         Thread.sleep(1000);
-        getWebElement(By.name(MOBILENUMBER)).sendKeys(password);
+        getWebElement(By.name(propertiesFile.getProperty("mobilenumber", ""))).sendKeys(password);
         return this;
     }
 
-    public RegisterPage setEmail(String password) throws InterruptedException {
+    public RegisterPage setEmail(String email) throws InterruptedException {
         Thread.sleep(1000);
-        getWebElement(By.name(EMAIL)).sendKeys(password);
+        getWebElement(By.name(propertiesFile.getProperty("email", ""))).sendKeys(email);
         return this;
     }
 
     public RegisterPage setPassword(String password) throws InterruptedException {
         Thread.sleep(1000);
-        getWebElement(By.name(PASSWORD)).sendKeys(password);
+        getWebElement(By.name(propertiesFile.getProperty("password", ""))).sendKeys(password);
         return this;
     }
 
     public RegisterPage setConfirmPassword(String password) throws InterruptedException {
         Thread.sleep(1000);
-        getWebElement(By.name(CONFIRMPASSWORD)).sendKeys(password);
+        getWebElement(By.name(propertiesFile.getProperty("confirmpassword", ""))).sendKeys(password);
         return this;
     }
 
     public AccountPage clickSignUpButton() throws InterruptedException {
-        WebElement signUp = getWebElement(By.xpath(SIGNUPBUTTON));
+        WebElement signUp = getWebElement(By.xpath(propertiesFile.getProperty("signup", "")));
         Thread.sleep(1000);
         signUp.click();
         return new AccountPage(driver);

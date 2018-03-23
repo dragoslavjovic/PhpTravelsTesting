@@ -1,16 +1,18 @@
 package com.praksa.cucumber.steps;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import helper.Drivers;
+import helper.Helper;
 import org.openqa.selenium.WebDriver;
 import pages.*;
 import org.junit.Assert;
 
-public class HeaderSteps {
+import java.util.Properties;
 
-    private HomePage homePage;
+public class HeaderSteps {
     private HeaderPage headerPage;
     private LoginPage loginPage;
     private HotelPage hotelPage;
@@ -21,9 +23,10 @@ public class HeaderSteps {
     private VisaPage visaPage;
     private BlogPage blogPage;
     private RegisterPage registerPage;
+    private AccountPage accountPage;
     private WebDriver driver;
 
-    private final String URL = "https://www.phptravels.net";
+    private static Properties propertiesFile = Helper.readProperties("linksPage.properties");
 
     public HeaderSteps(HeaderPage headerPage, Drivers drivers) {
         this.headerPage = headerPage;
@@ -32,7 +35,7 @@ public class HeaderSteps {
 
     @Given("^user on home page$")
     public HeaderSteps goToHomePage(){
-        driver.get(URL);
+        driver.get(propertiesFile.getProperty("homePage", ""));
         return this;
     }
 
@@ -45,7 +48,8 @@ public class HeaderSteps {
     }
 
     @Then("^login page displayed$")
-    public void validateOnLoginPage(){
+    public void validateOnLoginPage() throws InterruptedException {
+        Thread.sleep(2000);
         Assert.assertEquals("User is not on login page!", loginPage.getUrl(), driver.getCurrentUrl());
     }
 
@@ -78,6 +82,7 @@ public class HeaderSteps {
     public HeaderSteps goToFlightsPage() throws InterruptedException {
         headerPage = new HeaderPage(driver);
         flightsPage = headerPage.clickFlights();
+        Thread.sleep(1000);
         return this;
     }
 
@@ -126,6 +131,7 @@ public class HeaderSteps {
     public HeaderSteps goToVisaPage() throws InterruptedException {
         headerPage = new HeaderPage(driver);
         visaPage = headerPage.clickVisa();
+        Thread.sleep(1000);
         return this;
     }
 
@@ -141,15 +147,15 @@ public class HeaderSteps {
         return this;
     }
 
-    @Then("^blog page displayed$")
-    public void validateOnBlogPage(){
-        Assert.assertEquals("User is not on blog page!", blogPage.getUrl(), driver.getCurrentUrl());
-    }
-
-    @When("^user wants to logout$")
+    @And("^user wants to logout$")
     public HeaderSteps clickLogOut() throws InterruptedException {
         headerPage = new HeaderPage(driver);
         loginPage = headerPage.logOut();
         return this;
+    }
+
+    @Then("^blog page displayed$")
+    public void validateOnBlogPage(){
+        Assert.assertEquals("User is not on blog page!", blogPage.getUrl(), driver.getCurrentUrl());
     }
 }

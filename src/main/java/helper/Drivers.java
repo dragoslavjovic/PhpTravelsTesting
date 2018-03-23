@@ -6,18 +6,20 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class Drivers {
 
     private static WebDriver driver;
+    private static Properties propertiesFile = Helper.readProperties("environment.properties");
 
     public static void setDriver() {
         String browserName = System.getProperty("browser").toUpperCase();
-//        String browserName = "FIREFOX";
+
         switch (browserName){
             case "FIREFOX":
-                System.setProperty(Helper.getProperty("firefox.driver"), Helper.getProperty("firefox.location"));
+                System.setProperty(propertiesFile.getProperty("firefox.driver", ""), propertiesFile.getProperty("firefox.location", ""));
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.setCapability("marionette", false);
                 driver = new FirefoxDriver(firefoxOptions);
@@ -25,13 +27,13 @@ public class Drivers {
                 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 break;
             case "CHROME":
-                System.setProperty(Helper.getProperty("chrome.driver"), Helper.getProperty("chrome.location"));
+                System.setProperty(propertiesFile.getProperty("chrome.driver", ""), propertiesFile.getProperty("chrome.location", ""));
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
                 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 break;
             case "INTERNETEXPLORER":
-                System.setProperty(Helper.getProperty("ie.driver"), Helper.getProperty("ie.location"));
+                System.setProperty(propertiesFile.getProperty("ie.driver", ""), propertiesFile.getProperty("ie.location", ""));
                 driver = new InternetExplorerDriver();
                 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 break;

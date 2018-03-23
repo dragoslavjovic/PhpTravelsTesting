@@ -14,15 +14,16 @@ import pages.HeaderPage;
 import pages.LoginPage;
 import pages.RegisterPage;
 
+import java.util.Properties;
+
 public class LoginSteps{
     private LoginPage loginPage;
     private HeaderPage headerPage;
     private HeaderSteps headerSteps;
     private AccountPage accountPage;
     private RegisterPage registerPage;
-    private Helper helper;
     private WebDriver driver;
-    private final String URL = "https://www.phptravels.net/login";
+    private static Properties propertiesFile = Helper.readProperties("data.properties");
 
     public LoginSteps(HeaderPage headerPage, Drivers drivers, HeaderSteps headerSteps){
         this.headerPage = headerPage;
@@ -30,20 +31,20 @@ public class LoginSteps{
         this.driver = drivers.getDriver();
     }
 
-
     @And("^user types (.*) and (.*)$")
     public LoginSteps loginUser(String username, String password) throws InterruptedException {
         loginPage = new LoginPage(driver);
-        accountPage = loginPage.login(Helper.getProperty(username), Helper.getProperty(password));
+        accountPage = loginPage.login(propertiesFile.getProperty(username + ".user", ""), propertiesFile.getProperty(password + ".password", ""));
         return this;
     }
 
     @Then("^on login page user (.*) logged$")
     public void validationLogin(String isLogged) throws InterruptedException {
         if (("is").equals(isLogged)) {
-            Assert.assertTrue("User is not logged!", accountPage.getURL().equals(driver.getCurrentUrl()));
+            Thread.sleep(1500);
+            Assert.assertTrue("User is not logged!", accountPage.getUrl().equals(driver.getCurrentUrl()));
         } else {
-            Assert.assertFalse("User is logged!", accountPage.getURL().equals(driver.getCurrentUrl()));
+            Assert.assertFalse("User is logged!", accountPage.getUrl().equals(driver.getCurrentUrl()));
         }
     }
 
@@ -55,7 +56,7 @@ public class LoginSteps{
     }
 
     @Then("^user on singup page$")
-    public void validationSingUppage() {
+    public void validationSingUpPage() {
         registerPage = new RegisterPage(driver);
         Assert.assertTrue("User is not singup page!", registerPage.getUrl().equals(driver.getCurrentUrl()));
     }
@@ -69,7 +70,7 @@ public class LoginSteps{
 
     @And("^on forget page user types (.*)$")
     public LoginSteps sendEmail (String email) throws InterruptedException {
-        loginPage.sendAlertMail(Helper.getProperty(email));
+        loginPage.sendAlertMail(propertiesFile.getProperty(email + ".user", ""));
         return this;
     }
 
@@ -77,7 +78,7 @@ public class LoginSteps{
     public void validationSentEmail(String email, String isSent) throws InterruptedException {
         if (("is").equals(isSent)) {
             String title = driver.findElement(By.xpath(".//*[@id='passresetfrm']/div[1]/div")).getText();
-            Assert.assertEquals("Mail is not correct", title, "New Password sent to " + Helper.getProperty(email) + ", Kindly check email" );
+            Assert.assertEquals("Mail is not correct", title, "New Password sent to " + propertiesFile.getProperty(email + ".user", "") + ", Kindly check email" );
         } else {
             String title2 = driver.findElement(By.xpath(".//*[@id='passresetfrm']/div[1]/div")).getText();
             Assert.assertEquals("Mail is correct", title2, "Email Not Found" );
@@ -88,7 +89,7 @@ public class LoginSteps{
         Assert.assertFalse("Alert forget password is open!","Forget Password".equals(title3));
     }
 
-    @Given("^user is logged with username (.*) and password (.*)$")
+    @And("^user is logged with username (.*) and password (.*)$")
     public void userIsLogged(String username, String password) throws InterruptedException {
         headerSteps.goToHomePage()
                 .goToLoginPage();

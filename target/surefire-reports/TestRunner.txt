@@ -1,36 +1,46 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 214.958 s <<< FAILURE! - in TestRunner
-Flights page displayed(Base test)  Time elapsed: 10.676 s  <<< ERROR!
+Tests run: 30, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 363.588 s <<< FAILURE! - in TestRunner
+Cars page displayed(Base test)  Time elapsed: 8.043 s  <<< ERROR!
 org.openqa.selenium.WebDriverException: 
-java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:6057
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14407
 Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
 System info: host: 'INTERNSHIP01', ip: '10.1.193.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
 Driver info: driver.version: RemoteWebDriver
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:6057
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14407
 Caused by: java.net.ConnectException: Connection refused: connect
 
-Visa page displayed(Base test)  Time elapsed: 10.032 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9049
-Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'INTERNSHIP01', ip: '10.1.193.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
-Driver info: driver.version: RemoteWebDriver
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9049
-Caused by: java.net.ConnectException: Connection refused: connect
-
-User logged out(Base test)  Time elapsed: 22.913 s  <<< ERROR!
+User is forget password(Login tests)  Time elapsed: 18.407 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: {"method":"link text","selector":"Logout"}
+Unable to locate element: {"method":"name","selector":".//*[@id='ForgetPassword']/div/div/div[1]/button"}
 Command duration or timeout: 0 milliseconds
 Caused by: org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: {"method":"link text","selector":"Logout"}
+Unable to locate element: {"method":"name","selector":".//*[@id='ForgetPassword']/div/div/div[1]/button"}
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
 System info: host: 'INTERNSHIP01', ip: '10.1.193.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
 Driver info: driver.version: unknown
 
-User is logging(Login tests)  Time elapsed: 9.958 s  <<< FAILURE!
-java.lang.AssertionError: User is not logged!
+User is forget password(Login tests)  Time elapsed: 18.438 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"name","selector":".//*[@id='ForgetPassword']/div/div/div[1]/button"}
+Command duration or timeout: 0 milliseconds
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"name","selector":".//*[@id='ForgetPassword']/div/div/div[1]/button"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'INTERNSHIP01', ip: '10.1.193.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: unknown
+
+User tries to register in twice with same data(Register user)  Time elapsed: 24.351 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 0 milliseconds
+Caused by: org.openqa.selenium.StaleElementReferenceException: 
+Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'INTERNSHIP01', ip: '10.1.193.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: driver.version: unknown
 

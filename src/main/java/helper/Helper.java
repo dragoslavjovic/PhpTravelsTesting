@@ -6,21 +6,21 @@ import java.util.Properties;
 
 public class Helper {
     private static String workingDirectory = System.getProperty("user.dir");
-    private static String resourceFilePath =workingDirectory + "/src/main/resources/" + "login.properties";
+    private static String resourceFilePath;
     private static Properties properties;
 
 
-//    public static String loadCurrentProperties(String currentPath) {
-//        resourceFilePath = workingDirectory + "/src/main/resources/" + currentPath;
-//        return resourceFilePath;
-//    }
+    public static String loadCurrentProperties(String currentPath) {
+        resourceFilePath = workingDirectory + "/src/main/resources/" + currentPath;
+        return resourceFilePath;
+    }
 
 
-    public static void readProperties() {
+    public static Properties readProperties(String propertyPath) {
         properties = new Properties();
         FileReader propertyFileReader = null;
         try {
-            propertyFileReader = new FileReader(resourceFilePath);
+            propertyFileReader = new FileReader(loadCurrentProperties(propertyPath));
             properties.load(propertyFileReader);
         } catch (IOException ex){
             ex.printStackTrace();
@@ -33,12 +33,14 @@ public class Helper {
                 }
             }
         }
+        return properties;
     }
-
-    public static String getProperty(String key) {
-        readProperties();
-        return properties.getProperty(key) == null ? "" : properties.getProperty(key);
-    }
+/*
+    public static String getProperty(String key, String propertyPath) {
+        readProperties(propertyPath);
+       // return properties.getProperty(key) == null ? "" : properties.getProperty(key);
+        return properties.getProperty(key, "");
+    }*/
 
 
 //    public static boolean checkElementExists(By by, int seconds) {

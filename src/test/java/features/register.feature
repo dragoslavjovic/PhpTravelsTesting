@@ -12,12 +12,33 @@ Feature: Register user
     And rp user type password as <password>
     And rp user type confirm password as <confirmpassword>
     And rp user press button sign up
-    Then user <results> sgned up
+    Then user <results> signed up
     Examples:
-    | firstname       | lastname       | mobilenumber        | email       | password                | confirmpassword                 | results |
-    | valid.firstname | valid.lastname | valid.mobile.number | valid.email | valid.register.password | valid.register.confirm.password | is      |
-    |                 |                |                     |             |                         |                                 | is not  |
+    | firstname | lastname | mobilenumber | email | password | confirmpassword | results |
+    |           |          |              |       |          |                 | is not  |
+    | valid     | valid    | valid        | valid | valid    |                 | is not  |
+    | valid     | valid    | valid        | valid |          | valid           | is not  |
+    | valid     | valid    | valid        |       | valid    | valid           | is not  |
+    | valid     |          | valid        | valid | valid    | valid           | is not  |
+    |           | valid    | valid        | valid | valid    | valid           | is not  |
+    | valid     | valid    |              | valid | valid    | valid           | is      |
+    | valid     | valid    | valid        | valid | valid    | valid           | is      |
 
-#  Scenario: User is success signed up
-#    And rp user filled fields valid.firstname, valid.lastname, valid.mobile.number, valid.email, valid.register.password, valid.register.confirm.password
-#    Then rp account page displayed
+
+  Scenario: User tries to register in twice with same data
+    And rp valid user registered
+    And rp user wants to logout
+    And on header page user wants to sign up
+    And rp valid user registered
+    Then rp user did not register again
+
+  Scenario Outline: User writes passwords during registration
+    And rp user required fields filled valid without password and confirm password
+    And rp user filled password <password> and confirm password <confirmpassword>
+    And rp user press button sign up
+    Then rp password <result> accept
+   Examples:
+    | password | confirmpassword | result |
+    | <6       | <6              | is not |
+    | valid    | invalid         | is not |
+    | valid    | valid           | is     |

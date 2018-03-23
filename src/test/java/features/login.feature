@@ -8,12 +8,12 @@ Feature: Login tests
     And user types <username> and <password>
     Then on login page user <result> logged
    Examples:
-      | username     | password         | result |
-      | valid.user   | valid.password   | is     |
-      |              |                  | is not |
-      |              | valid.password   | is not |
-      | valid.user   |                  | is not |
-      | invalid.user | invalid.password | is not |
+      | username | password | result |
+      | valid    | valid    | is     |
+      |          |          | is not |
+      |          | valid    | is not |
+      | valid    |          | is not |
+      | invalid  | invalid  | is not |
 
   Scenario: User registration
     And user wants to singup
@@ -24,6 +24,6 @@ Feature: Login tests
     And on forget page user types <email>
     Then user's <email> <results> send
    Examples:
-    |email         |results |
-    | valid.user   | is     |
-    | invalid.user | is not |
+    |email    |results |
+    | valid   | is     |
+    | invalid | is not |

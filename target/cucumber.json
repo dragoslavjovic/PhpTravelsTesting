@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2446321651,
+              "duration": 2250236587,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 2500184035,
+              "duration": 2432580966,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 409067119,
+              "duration": 443341524,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1151722624,
+              "duration": 917833484,
               "status": "passed"
             },
             "line": 7,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 14620155,
+              "duration": 13967677,
               "status": "passed"
             },
             "line": 8,
@@ -88,7 +88,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3088872366,
+              "duration": 2015875450,
               "status": "passed"
             },
             "line": 4,
@@ -104,7 +104,7 @@
         "before": [
           {
             "result": {
-              "duration": 1857283454,
+              "duration": 1823447491,
               "status": "passed"
             },
             "match": {
@@ -119,7 +119,7 @@
         "after": [
           {
             "result": {
-              "duration": 407929911,
+              "duration": 403848883,
               "status": "passed"
             },
             "match": {
@@ -132,7 +132,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1852760789,
+              "duration": 1890560320,
               "status": "passed"
             },
             "line": 11,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 8653935,
+              "duration": 8862740,
               "status": "passed"
             },
             "line": 12,
@@ -165,7 +165,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2404146801,
+              "duration": 1987015366,
               "status": "passed"
             },
             "line": 4,
@@ -181,7 +181,7 @@
         "before": [
           {
             "result": {
-              "duration": 1839823974,
+              "duration": 1873385525,
               "status": "passed"
             },
             "match": {
@@ -196,7 +196,7 @@
         "after": [
           {
             "result": {
-              "duration": 456997701,
+              "duration": 469574188,
               "status": "passed"
             },
             "match": {
@@ -209,7 +209,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1204041613,
+              "duration": 1262845753,
               "status": "passed"
             },
             "line": 15,
@@ -221,7 +221,7 @@
           },
           {
             "result": {
-              "duration": 1363470688,
+              "duration": 1196313193,
               "status": "passed"
             },
             "line": 16,
@@ -242,7 +242,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2040324824,
+              "duration": 1986356876,
               "status": "passed"
             },
             "line": 4,
@@ -258,7 +258,7 @@
         "before": [
           {
             "result": {
-              "duration": 1810987289,
+              "duration": 1808496774,
               "status": "passed"
             },
             "match": {
@@ -273,9 +273,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:6057\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027INTERNSHIP01\u0027, ip: \u002710.1.193.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00279.0.4\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:497)\r\n\tat helper.Drivers.exitBrowser(Drivers.java:49)\r\n\tat com.praksa.cucumber.steps.CommonSteps.closeBrowser(CommonSteps.java:16)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:31)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:25)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:17)\r\n\tat cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)\r\n\tat cucumber.api.TestStep.run(TestStep.java:83)\r\n\tat cucumber.api.TestCase.run(TestCase.java:58)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:80)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:6057\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:104)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:54)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\t... 45 more\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)\r\n\tat java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)\r\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)\r\n\tat java.base/java.net.Socket.connect(Socket.java:591)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)\r\n\t... 66 more\r\n",
-              "duration": 1414730406,
-              "status": "failed"
+              "duration": 415771115,
+              "status": "passed"
             },
             "match": {
               "location": "CommonSteps.closeBrowser()"
@@ -287,7 +286,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5398494038,
+              "duration": 1249568995,
               "status": "passed"
             },
             "line": 19,
@@ -299,7 +298,7 @@
           },
           {
             "result": {
-              "duration": 7717260,
+              "duration": 820832019,
               "status": "passed"
             },
             "line": 20,
@@ -320,7 +319,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1925263097,
+              "duration": 2028070464,
               "status": "passed"
             },
             "line": 4,
@@ -336,7 +335,7 @@
         "before": [
           {
             "result": {
-              "duration": 1813568622,
+              "duration": 1810078003,
               "status": "passed"
             },
             "match": {
@@ -351,7 +350,7 @@
         "after": [
           {
             "result": {
-              "duration": 450405418,
+              "duration": 392464822,
               "status": "passed"
             },
             "match": {
@@ -364,7 +363,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2522795940,
+              "duration": 2277810694,
               "status": "passed"
             },
             "line": 23,
@@ -376,7 +375,7 @@
           },
           {
             "result": {
-              "duration": 7516157,
+              "duration": 13345879,
               "status": "passed"
             },
             "line": 24,
@@ -397,7 +396,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2641038324,
+              "duration": 2061128672,
               "status": "passed"
             },
             "line": 4,
@@ -413,7 +412,7 @@
         "before": [
           {
             "result": {
-              "duration": 1789709714,
+              "duration": 1812396800,
               "status": "passed"
             },
             "match": {
@@ -428,8 +427,9 @@
         "after": [
           {
             "result": {
-              "duration": 422056556,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14407\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027INTERNSHIP01\u0027, ip: \u002710.1.193.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00279.0.4\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:497)\r\n\tat helper.Drivers.exitBrowser(Drivers.java:51)\r\n\tat com.praksa.cucumber.steps.CommonSteps.closeBrowser(CommonSteps.java:16)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:31)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:25)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:17)\r\n\tat cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)\r\n\tat cucumber.api.TestStep.run(TestStep.java:83)\r\n\tat cucumber.api.TestCase.run(TestCase.java:58)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:80)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:14407\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:104)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:54)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\t... 45 more\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)\r\n\tat java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)\r\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)\r\n\tat java.base/java.net.Socket.connect(Socket.java:591)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)\r\n\t... 66 more\r\n",
+              "duration": 1381017614,
+              "status": "failed"
             },
             "match": {
               "location": "CommonSteps.closeBrowser()"
@@ -441,7 +441,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1272584172,
+              "duration": 2668830535,
               "status": "passed"
             },
             "line": 27,
@@ -453,7 +453,7 @@
           },
           {
             "result": {
-              "duration": 2044466334,
+              "duration": 112842497,
               "status": "passed"
             },
             "line": 28,
@@ -474,7 +474,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2171214743,
+              "duration": 1980889841,
               "status": "passed"
             },
             "line": 4,
@@ -490,7 +490,7 @@
         "before": [
           {
             "result": {
-              "duration": 1847483208,
+              "duration": 1856120561,
               "status": "passed"
             },
             "match": {
@@ -505,7 +505,7 @@
         "after": [
           {
             "result": {
-              "duration": 391101045,
+              "duration": 409927759,
               "status": "passed"
             },
             "match": {
@@ -518,7 +518,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1825145792,
+              "duration": 1808211475,
               "status": "passed"
             },
             "line": 31,
@@ -530,7 +530,7 @@
           },
           {
             "result": {
-              "duration": 11972548,
+              "duration": 20936581,
               "status": "passed"
             },
             "line": 32,
@@ -551,7 +551,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2144243444,
+              "duration": 1844465140,
               "status": "passed"
             },
             "line": 4,
@@ -567,7 +567,7 @@
         "before": [
           {
             "result": {
-              "duration": 1826190840,
+              "duration": 1831306710,
               "status": "passed"
             },
             "match": {
@@ -582,9 +582,8 @@
         "after": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9049\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027INTERNSHIP01\u0027, ip: \u002710.1.193.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00279.0.4\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:497)\r\n\tat helper.Drivers.exitBrowser(Drivers.java:49)\r\n\tat com.praksa.cucumber.steps.CommonSteps.closeBrowser(CommonSteps.java:16)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:31)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:25)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:17)\r\n\tat cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)\r\n\tat cucumber.api.TestStep.run(TestStep.java:83)\r\n\tat cucumber.api.TestCase.run(TestCase.java:58)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:80)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:9049\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:104)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:54)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:157)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\t... 45 more\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)\r\n\tat java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)\r\n\tat java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)\r\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)\r\n\tat java.base/java.net.Socket.connect(Socket.java:591)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)\r\n\t... 66 more\r\n",
-              "duration": 1376752818,
-              "status": "failed"
+              "duration": 844381228,
+              "status": "passed"
             },
             "match": {
               "location": "CommonSteps.closeBrowser()"
@@ -596,7 +595,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1183719770,
+              "duration": 1153165717,
               "status": "passed"
             },
             "line": 35,
@@ -608,7 +607,7 @@
           },
           {
             "result": {
-              "duration": 3495409352,
+              "duration": 2985260624,
               "status": "passed"
             },
             "line": 36,
@@ -629,7 +628,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2113002919,
+              "duration": 2093758791,
               "status": "passed"
             },
             "line": 4,
@@ -645,7 +644,7 @@
         "before": [
           {
             "result": {
-              "duration": 1824778859,
+              "duration": 1821258686,
               "status": "passed"
             },
             "match": {
@@ -660,7 +659,7 @@
         "after": [
           {
             "result": {
-              "duration": 375522026,
+              "duration": 412772211,
               "status": "passed"
             },
             "match": {
@@ -673,7 +672,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1811778045,
+              "duration": 1818005488,
               "status": "passed"
             },
             "line": 39,
@@ -685,7 +684,7 @@
           },
           {
             "result": {
-              "duration": 6607927,
+              "duration": 15073599,
               "status": "passed"
             },
             "line": 40,
@@ -706,7 +705,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2088826854,
+              "duration": 1976844747,
               "status": "passed"
             },
             "line": 4,
@@ -722,7 +721,7 @@
         "before": [
           {
             "result": {
-              "duration": 1855025819,
+              "duration": 1832858073,
               "status": "passed"
             },
             "match": {
@@ -737,7 +736,7 @@
         "after": [
           {
             "result": {
-              "duration": 355045446,
+              "duration": 394288968,
               "status": "passed"
             },
             "match": {
@@ -750,7 +749,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8325441898,
+              "duration": 6817920723,
               "status": "passed"
             },
             "line": 43,
@@ -772,9 +771,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Logout\"}\nCommand duration or timeout: 0 milliseconds\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:425)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat pages.HeaderPage.clickLogOut(HeaderPage.java:63)\r\n\tat pages.HeaderPage.logOut(HeaderPage.java:127)\r\n\tat com.praksa.cucumber.steps.HeaderSteps.clickLogOut(HeaderSteps.java:152)\r\n\tat ✽.user wants to logout(src/test/java/features/header.feature:44)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Logout\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027INTERNSHIP01\u0027, ip: \u002710.1.193.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00279.0.4\u0027\nDriver info: driver.version: unknown\r\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous1424155304254116183webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11884)\r\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous1424155304254116183webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:918)\r\n",
-              "duration": 10288088381,
-              "status": "failed"
+              "duration": 2177038340,
+              "status": "passed"
             },
             "line": 44,
             "name": "user wants to logout",
@@ -785,7 +783,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 833484706,
+              "status": "passed"
             },
             "line": 45,
             "name": "login page displayed",
@@ -816,7 +815,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1933838525,
+              "duration": 2236329782,
               "status": "passed"
             },
             "line": 4,
@@ -828,7 +827,7 @@
           },
           {
             "result": {
-              "duration": 1001118436,
+              "duration": 999615715,
               "status": "passed"
             },
             "line": 5,
@@ -844,7 +843,7 @@
         "before": [
           {
             "result": {
-              "duration": 1815420355,
+              "duration": 1845585568,
               "status": "passed"
             },
             "match": {
@@ -859,7 +858,7 @@
         "after": [
           {
             "result": {
-              "duration": 447346219,
+              "duration": 399113726,
               "status": "passed"
             },
             "match": {
@@ -872,7 +871,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4724411527,
+              "duration": 4848088970,
               "status": "passed"
             },
             "line": 8,
@@ -894,9 +893,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: User is not logged!\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat com.praksa.cucumber.steps.LoginSteps.validationLogin(LoginSteps.java:44)\r\n\tat ✽.on login page user is logged(src/test/java/features/login.feature:9)\r\n",
-              "duration": 22256350,
-              "status": "failed"
+              "duration": 1063184358,
+              "status": "passed"
             },
             "line": 9,
             "name": "on login page user is logged",
@@ -922,7 +920,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2219616934,
+              "duration": 1928234504,
               "status": "passed"
             },
             "line": 4,
@@ -934,7 +932,7 @@
           },
           {
             "result": {
-              "duration": 888165578,
+              "duration": 917578053,
               "status": "passed"
             },
             "line": 5,
@@ -950,7 +948,7 @@
         "before": [
           {
             "result": {
-              "duration": 1826420103,
+              "duration": 1828245796,
               "status": "passed"
             },
             "match": {
@@ -965,7 +963,7 @@
         "after": [
           {
             "result": {
-              "duration": 382375144,
+              "duration": 419875942,
               "status": "passed"
             },
             "match": {
@@ -978,7 +976,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4762847356,
+              "duration": 4768438370,
               "status": "passed"
             },
             "line": 8,
@@ -1000,7 +998,7 @@
           },
           {
             "result": {
-              "duration": 20953310,
+              "duration": 22837243,
               "status": "passed"
             },
             "line": 9,
@@ -1027,7 +1025,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2402710357,
+              "duration": 2608245153,
               "status": "passed"
             },
             "line": 4,
@@ -1039,7 +1037,7 @@
           },
           {
             "result": {
-              "duration": 959943692,
+              "duration": 970365088,
               "status": "passed"
             },
             "line": 5,
@@ -1055,7 +1053,7 @@
         "before": [
           {
             "result": {
-              "duration": 1808033334,
+              "duration": 1822627720,
               "status": "passed"
             },
             "match": {
@@ -1070,7 +1068,7 @@
         "after": [
           {
             "result": {
-              "duration": 387061650,
+              "duration": 432559348,
               "status": "passed"
             },
             "match": {
@@ -1083,7 +1081,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4758783784,
+              "duration": 4832970998,
               "status": "passed"
             },
             "line": 8,
@@ -1105,7 +1103,7 @@
           },
           {
             "result": {
-              "duration": 22381789,
+              "duration": 21619249,
               "status": "passed"
             },
             "line": 9,
@@ -1132,7 +1130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2409890301,
+              "duration": 2276272131,
               "status": "passed"
             },
             "line": 4,
@@ -1144,7 +1142,7 @@
           },
           {
             "result": {
-              "duration": 929582953,
+              "duration": 1029495250,
               "status": "passed"
             },
             "line": 5,
@@ -1160,7 +1158,7 @@
         "before": [
           {
             "result": {
-              "duration": 1791300326,
+              "duration": 1832380205,
               "status": "passed"
             },
             "match": {
@@ -1175,7 +1173,7 @@
         "after": [
           {
             "result": {
-              "duration": 381447571,
+              "duration": 430875149,
               "status": "passed"
             },
             "match": {
@@ -1188,7 +1186,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4739853158,
+              "duration": 4843576533,
               "status": "passed"
             },
             "line": 8,
@@ -1210,7 +1208,7 @@
           },
           {
             "result": {
-              "duration": 22024811,
+              "duration": 21551552,
               "status": "passed"
             },
             "line": 9,
@@ -1237,7 +1235,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2062311520,
+              "duration": 1886880169,
               "status": "passed"
             },
             "line": 4,
@@ -1249,7 +1247,7 @@
           },
           {
             "result": {
-              "duration": 979403668,
+              "duration": 955055684,
               "status": "passed"
             },
             "line": 5,
@@ -1265,7 +1263,7 @@
         "before": [
           {
             "result": {
-              "duration": 1826978183,
+              "duration": 1782259274,
               "status": "passed"
             },
             "match": {
@@ -1280,7 +1278,7 @@
         "after": [
           {
             "result": {
-              "duration": 398795833,
+              "duration": 428795287,
               "status": "passed"
             },
             "match": {
@@ -1293,7 +1291,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4791376557,
+              "duration": 4842976353,
               "status": "passed"
             },
             "line": 8,
@@ -1315,7 +1313,7 @@
           },
           {
             "result": {
-              "duration": 21239745,
+              "duration": 22163109,
               "status": "passed"
             },
             "line": 9,
@@ -1342,7 +1340,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2066866043,
+              "duration": 1884372216,
               "status": "passed"
             },
             "line": 4,
@@ -1354,7 +1352,7 @@
           },
           {
             "result": {
-              "duration": 944566629,
+              "duration": 1059748545,
               "status": "passed"
             },
             "line": 5,
@@ -1370,7 +1368,7 @@
         "before": [
           {
             "result": {
-              "duration": 1809352019,
+              "duration": 1848659851,
               "status": "passed"
             },
             "match": {
@@ -1385,7 +1383,7 @@
         "after": [
           {
             "result": {
-              "duration": 406946302,
+              "duration": 426809860,
               "status": "passed"
             },
             "match": {
@@ -1398,7 +1396,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3117117976,
+              "duration": 3624344177,
               "status": "passed"
             },
             "line": 19,
@@ -1410,13 +1408,13 @@
           },
           {
             "result": {
-              "duration": 22949824,
+              "duration": 23581920,
               "status": "passed"
             },
             "line": 20,
             "name": "user on singup page",
             "match": {
-              "location": "LoginSteps.validationSingUppage()"
+              "location": "LoginSteps.validationSingUpPage()"
             },
             "keyword": "Then "
           }
@@ -1431,7 +1429,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1932974952,
+              "duration": 2071555861,
               "status": "passed"
             },
             "line": 4,
@@ -1443,7 +1441,7 @@
           },
           {
             "result": {
-              "duration": 925074226,
+              "duration": 964225625,
               "status": "passed"
             },
             "line": 5,
@@ -1459,7 +1457,7 @@
         "before": [
           {
             "result": {
-              "duration": 1835193789,
+              "duration": 1772497117,
               "status": "passed"
             },
             "match": {
@@ -1474,7 +1472,7 @@
         "after": [
           {
             "result": {
-              "duration": 353131989,
+              "duration": 396131035,
               "status": "passed"
             },
             "match": {
@@ -1487,7 +1485,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3138867445,
+              "duration": 3089294141,
               "status": "passed"
             },
             "line": 23,
@@ -1499,8 +1497,9 @@
           },
           {
             "result": {
-              "duration": 3232369427,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"name\",\"selector\":\".//*[@id\u003d\u0027ForgetPassword\u0027]/div/div/div[1]/button\"}\nCommand duration or timeout: 0 milliseconds\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:449)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat pages.HeaderPage.getWebElement(HeaderPage.java:21)\r\n\tat pages.LoginPage.setAlertMail(LoginPage.java:84)\r\n\tat pages.LoginPage.sendAlertMail(LoginPage.java:89)\r\n\tat com.praksa.cucumber.steps.LoginSteps.sendEmail(LoginSteps.java:72)\r\n\tat ✽.on forget page user types valid.user(src/test/java/features/login.feature:24)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"name\",\"selector\":\".//*[@id\u003d\u0027ForgetPassword\u0027]/div/div/div[1]/button\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027INTERNSHIP01\u0027, ip: \u002710.1.193.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00279.0.4\u0027\nDriver info: driver.version: unknown\r\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous5772021049039641601webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11884)\r\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous5772021049039641601webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:918)\r\n",
+              "duration": 10105259475,
+              "status": "failed"
             },
             "line": 24,
             "name": "on forget page user types valid.user",
@@ -1517,8 +1516,7 @@
           },
           {
             "result": {
-              "duration": 4236676769,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "user\u0027s valid.user is send",
@@ -1548,7 +1546,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4409547830,
+              "duration": 1977962901,
               "status": "passed"
             },
             "line": 4,
@@ -1560,7 +1558,7 @@
           },
           {
             "result": {
-              "duration": 1215741947,
+              "duration": 921638791,
               "status": "passed"
             },
             "line": 5,
@@ -1576,7 +1574,7 @@
         "before": [
           {
             "result": {
-              "duration": 1824984512,
+              "duration": 1824994589,
               "status": "passed"
             },
             "match": {
@@ -1591,7 +1589,7 @@
         "after": [
           {
             "result": {
-              "duration": 359837480,
+              "duration": 425747458,
               "status": "passed"
             },
             "match": {
@@ -1604,7 +1602,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3152135921,
+              "duration": 3161689114,
               "status": "passed"
             },
             "line": 23,
@@ -1616,8 +1614,9 @@
           },
           {
             "result": {
-              "duration": 3219137929,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"name\",\"selector\":\".//*[@id\u003d\u0027ForgetPassword\u0027]/div/div/div[1]/button\"}\nCommand duration or timeout: 0 milliseconds\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:449)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat pages.HeaderPage.getWebElement(HeaderPage.java:21)\r\n\tat pages.LoginPage.setAlertMail(LoginPage.java:84)\r\n\tat pages.LoginPage.sendAlertMail(LoginPage.java:89)\r\n\tat com.praksa.cucumber.steps.LoginSteps.sendEmail(LoginSteps.java:72)\r\n\tat ✽.on forget page user types invalid.user(src/test/java/features/login.feature:24)\r\nCaused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {\"method\":\"name\",\"selector\":\".//*[@id\u003d\u0027ForgetPassword\u0027]/div/div/div[1]/button\"}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027INTERNSHIP01\u0027, ip: \u002710.1.193.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00279.0.4\u0027\nDriver info: driver.version: unknown\r\n\tat \u003canonymous class\u003e.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous6106467372910864765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11884)\r\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous6106467372910864765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:918)\r\n",
+              "duration": 10115588246,
+              "status": "failed"
             },
             "line": 24,
             "name": "on forget page user types invalid.user",
@@ -1634,8 +1633,7 @@
           },
           {
             "result": {
-              "duration": 4251373724,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "user\u0027s invalid.user is not send",
@@ -1676,7 +1674,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2074609757,
+              "duration": 2128748666,
               "status": "passed"
             },
             "line": 4,
@@ -1688,7 +1686,7 @@
           },
           {
             "result": {
-              "duration": 1336315638,
+              "duration": 1888019656,
               "status": "passed"
             },
             "line": 5,
@@ -1704,7 +1702,7 @@
         "before": [
           {
             "result": {
-              "duration": 1799047453,
+              "duration": 1842202947,
               "status": "passed"
             },
             "match": {
@@ -1719,7 +1717,7 @@
         "after": [
           {
             "result": {
-              "duration": 380233279,
+              "duration": 425202177,
               "status": "passed"
             },
             "match": {
@@ -1732,15 +1730,15 @@
         "steps": [
           {
             "result": {
-              "duration": 1109920964,
+              "duration": 1077320425,
               "status": "passed"
             },
             "line": 8,
-            "name": "rp user type firstname as valid.firstname",
+            "name": "rp user type firstname as ",
             "match": {
               "arguments": [
                 {
-                  "val": "valid.firstname",
+                  "val": "",
                   "offset": 26
                 }
               ],
@@ -1750,15 +1748,15 @@
           },
           {
             "result": {
-              "duration": 1110413622,
+              "duration": 1073226976,
               "status": "passed"
             },
             "line": 9,
-            "name": "rp user type lastname as valid.lastname",
+            "name": "rp user type lastname as ",
             "match": {
               "arguments": [
                 {
-                  "val": "valid.lastname",
+                  "val": "",
                   "offset": 25
                 }
               ],
@@ -1768,15 +1766,15 @@
           },
           {
             "result": {
-              "duration": 1109561711,
+              "duration": 1038396674,
               "status": "passed"
             },
             "line": 10,
-            "name": "rp user type mobile number as valid.mobile.number",
+            "name": "rp user type mobile number as ",
             "match": {
               "arguments": [
                 {
-                  "val": "valid.mobile.number",
+                  "val": "",
                   "offset": 30
                 }
               ],
@@ -1786,33 +1784,33 @@
           },
           {
             "result": {
-              "duration": 1100668842,
+              "duration": 1062233457,
               "status": "passed"
             },
             "line": 11,
-            "name": "rp user type email as valid.email",
+            "name": "rp user type email as ",
             "match": {
               "arguments": [
                 {
-                  "val": "valid.email",
+                  "val": "",
                   "offset": 22
                 }
               ],
-              "location": "RegisterSteps.filledEmail(String)"
+              "location": "RegisterSteps.randomFilledEmail(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1056269353,
+              "duration": 1083444528,
               "status": "passed"
             },
             "line": 12,
-            "name": "rp user type password as valid.register.password",
+            "name": "rp user type password as ",
             "match": {
               "arguments": [
                 {
-                  "val": "valid.register.password",
+                  "val": "",
                   "offset": 25
                 }
               ],
@@ -1822,15 +1820,15 @@
           },
           {
             "result": {
-              "duration": 1102525695,
+              "duration": 1072768165,
               "status": "passed"
             },
             "line": 13,
-            "name": "rp user type confirm password as valid.register.confirm.password",
+            "name": "rp user type confirm password as ",
             "match": {
               "arguments": [
                 {
-                  "val": "valid.register.confirm.password",
+                  "val": "",
                   "offset": 33
                 }
               ],
@@ -1840,7 +1838,7 @@
           },
           {
             "result": {
-              "duration": 1117244269,
+              "duration": 1135014138,
               "status": "passed"
             },
             "line": 14,
@@ -1852,11 +1850,1229 @@
           },
           {
             "result": {
-              "duration": 1147460794,
+              "duration": 1025499364,
               "status": "passed"
             },
             "line": 15,
-            "name": "user is sgned up",
+            "name": "user is not signed up",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "RegisterSteps.validationRegistration(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2115732744,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1828718259,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1800003812,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User is sign up",
+        "description": "",
+        "id": "register-user;user-is-sign-up;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 412637384,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1088530121,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "rp user type firstname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterSteps.filledFirstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1088716718,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "rp user type lastname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1094058596,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "rp user type mobile number as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterSteps.filledMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1153482589,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "rp user type email as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterSteps.randomFilledEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087729693,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "rp user type password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1035293663,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "rp user type confirm password as ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 33
+                }
+              ],
+              "location": "RegisterSteps.filledConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1118419328,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "rp user press button sign up",
+            "match": {
+              "location": "RegisterSteps.clickButtonSignUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1027405716,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is not signed up",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "RegisterSteps.validationRegistration(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2031298347,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1830410992,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1798608892,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User is sign up",
+        "description": "",
+        "id": "register-user;user-is-sign-up;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 420384814,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1110406224,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "rp user type firstname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterSteps.filledFirstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1101695662,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "rp user type lastname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1088752273,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "rp user type mobile number as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterSteps.filledMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1106487425,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "rp user type email as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterSteps.randomFilledEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1098521540,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "rp user type password as ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1112825999,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "rp user type confirm password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 33
+                }
+              ],
+              "location": "RegisterSteps.filledConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1085442186,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "rp user press button sign up",
+            "match": {
+              "location": "RegisterSteps.clickButtonSignUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1026720772,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is not signed up",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "RegisterSteps.validationRegistration(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1969023076,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1948896595,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1796371448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User is sign up",
+        "description": "",
+        "id": "register-user;user-is-sign-up;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 409335544,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1100847732,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "rp user type firstname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterSteps.filledFirstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1090052188,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "rp user type lastname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1101197599,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "rp user type mobile number as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterSteps.filledMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1064778387,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "rp user type email as ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterSteps.randomFilledEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1122049984,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "rp user type password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1092643766,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "rp user type confirm password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 33
+                }
+              ],
+              "location": "RegisterSteps.filledConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171090025,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "rp user press button sign up",
+            "match": {
+              "location": "RegisterSteps.clickButtonSignUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021672440,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is not signed up",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "RegisterSteps.validationRegistration(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2084032760,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1854628078,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1830891420,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User is sign up",
+        "description": "",
+        "id": "register-user;user-is-sign-up;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 409377928,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1107708832,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "rp user type firstname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterSteps.filledFirstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1090662322,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "rp user type lastname as ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1097848542,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "rp user type mobile number as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterSteps.filledMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1125559752,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "rp user type email as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterSteps.randomFilledEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126319221,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "rp user type password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131669918,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "rp user type confirm password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 33
+                }
+              ],
+              "location": "RegisterSteps.filledConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1198269322,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "rp user press button sign up",
+            "match": {
+              "location": "RegisterSteps.clickButtonSignUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1025879099,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is not signed up",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "RegisterSteps.validationRegistration(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1925581769,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1961193440,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1770782483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User is sign up",
+        "description": "",
+        "id": "register-user;user-is-sign-up;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 416498725,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1112761145,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "rp user type firstname as ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterSteps.filledFirstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1096644202,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "rp user type lastname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1112719048,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "rp user type mobile number as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterSteps.filledMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1122268438,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "rp user type email as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterSteps.randomFilledEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1097966019,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "rp user type password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1088506229,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "rp user type confirm password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 33
+                }
+              ],
+              "location": "RegisterSteps.filledConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1132399803,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "rp user press button sign up",
+            "match": {
+              "location": "RegisterSteps.clickButtonSignUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1024088801,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is not signed up",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 5
+                }
+              ],
+              "location": "RegisterSteps.validationRegistration(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2107189435,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1824824206,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1818903481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User is sign up",
+        "description": "",
+        "id": "register-user;user-is-sign-up;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 447199453,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1107029861,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "rp user type firstname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterSteps.filledFirstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1092885830,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "rp user type lastname as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledLastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1066818428,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "rp user type mobile number as ",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 30
+                }
+              ],
+              "location": "RegisterSteps.filledMobileNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1093639893,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "rp user type email as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterSteps.randomFilledEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1066436987,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "rp user type password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterSteps.filledPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1061408567,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "rp user type confirm password as valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 33
+                }
+              ],
+              "location": "RegisterSteps.filledConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1123302396,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "rp user press button sign up",
+            "match": {
+              "location": "RegisterSteps.clickButtonSignUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019049856,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is signed up",
             "match": {
               "arguments": [
                 {
@@ -1879,7 +3095,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2075701739,
+              "duration": 1974200545,
               "status": "passed"
             },
             "line": 4,
@@ -1891,7 +3107,7 @@
           },
           {
             "result": {
-              "duration": 2096373164,
+              "duration": 1336274970,
               "status": "passed"
             },
             "line": 5,
@@ -1907,7 +3123,7 @@
         "before": [
           {
             "result": {
-              "duration": 1805439487,
+              "duration": 1797104747,
               "status": "passed"
             },
             "match": {
@@ -1915,14 +3131,14 @@
             }
           }
         ],
-        "line": 19,
+        "line": 25,
         "name": "User is sign up",
         "description": "",
-        "id": "register-user;user-is-sign-up;;3",
+        "id": "register-user;user-is-sign-up;;9",
         "after": [
           {
             "result": {
-              "duration": 388204263,
+              "duration": 373268192,
               "status": "passed"
             },
             "match": {
@@ -1935,15 +3151,15 @@
         "steps": [
           {
             "result": {
-              "duration": 1083838270,
+              "duration": 1091720742,
               "status": "passed"
             },
             "line": 8,
-            "name": "rp user type firstname as ",
+            "name": "rp user type firstname as valid",
             "match": {
               "arguments": [
                 {
-                  "val": "",
+                  "val": "valid",
                   "offset": 26
                 }
               ],
@@ -1953,15 +3169,15 @@
           },
           {
             "result": {
-              "duration": 1073070912,
+              "duration": 1073507154,
               "status": "passed"
             },
             "line": 9,
-            "name": "rp user type lastname as ",
+            "name": "rp user type lastname as valid",
             "match": {
               "arguments": [
                 {
-                  "val": "",
+                  "val": "valid",
                   "offset": 25
                 }
               ],
@@ -1971,15 +3187,15 @@
           },
           {
             "result": {
-              "duration": 1080253986,
+              "duration": 1096510797,
               "status": "passed"
             },
             "line": 10,
-            "name": "rp user type mobile number as ",
+            "name": "rp user type mobile number as valid",
             "match": {
               "arguments": [
                 {
-                  "val": "",
+                  "val": "valid",
                   "offset": 30
                 }
               ],
@@ -1989,33 +3205,33 @@
           },
           {
             "result": {
-              "duration": 1076986573,
+              "duration": 1117158667,
               "status": "passed"
             },
             "line": 11,
-            "name": "rp user type email as ",
+            "name": "rp user type email as valid",
             "match": {
               "arguments": [
                 {
-                  "val": "",
+                  "val": "valid",
                   "offset": 22
                 }
               ],
-              "location": "RegisterSteps.filledEmail(String)"
+              "location": "RegisterSteps.randomFilledEmail(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1113925087,
+              "duration": 1061843198,
               "status": "passed"
             },
             "line": 12,
-            "name": "rp user type password as ",
+            "name": "rp user type password as valid",
             "match": {
               "arguments": [
                 {
-                  "val": "",
+                  "val": "valid",
                   "offset": 25
                 }
               ],
@@ -2025,15 +3241,15 @@
           },
           {
             "result": {
-              "duration": 1092484240,
+              "duration": 1085028318,
               "status": "passed"
             },
             "line": 13,
-            "name": "rp user type confirm password as ",
+            "name": "rp user type confirm password as valid",
             "match": {
               "arguments": [
                 {
-                  "val": "",
+                  "val": "valid",
                   "offset": 33
                 }
               ],
@@ -2043,7 +3259,7 @@
           },
           {
             "result": {
-              "duration": 1142960884,
+              "duration": 1129149734,
               "status": "passed"
             },
             "line": 14,
@@ -2055,19 +3271,559 @@
           },
           {
             "result": {
-              "duration": 1021338732,
+              "duration": 1051161148,
               "status": "passed"
             },
             "line": 15,
-            "name": "user is not sgned up",
+            "name": "user is signed up",
             "match": {
               "arguments": [
                 {
-                  "val": "is not",
+                  "val": "is",
                   "offset": 5
                 }
               ],
               "location": "RegisterSteps.validationRegistration(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1888392279,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1338745091,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1847917450,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User tries to register in twice with same data",
+        "description": "",
+        "id": "register-user;user-tries-to-register-in-twice-with-same-data",
+        "after": [
+          {
+            "result": {
+              "duration": 421320355,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7720364306,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "rp valid user registered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 3
+                }
+              ],
+              "location": "RegisterSteps.userRegistered(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up\nCommand duration or timeout: 0 milliseconds\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat pages.HeaderPage.clickLogOut(HeaderPage.java:56)\r\n\tat pages.HeaderPage.logOut(HeaderPage.java:118)\r\n\tat com.praksa.cucumber.steps.HeaderSteps.clickLogOut(HeaderSteps.java:153)\r\n\tat ✽.user wants to logout(src/test/java/features/register.feature:30)\r\nCaused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.9.1\u0027, revision: \u002763f7b50\u0027, time: \u00272018-02-07T22:25:02.294Z\u0027\nSystem info: host: \u0027INTERNSHIP01\u0027, ip: \u002710.1.193.105\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00279.0.4\u0027\nDriver info: driver.version: unknown\r\n\tat \u003canonymous class\u003e.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9064)\r\n\tat \u003canonymous class\u003e.Utils.getElementAt(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous16809897758470349759webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10876)\r\n\tat \u003canonymous class\u003e.fxdriver.preconditions.visible(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous16809897758470349759webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11396)\r\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous16809897758470349759webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:13361)\r\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_/k(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous16809897758470349759webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:13378)\r\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///C:/Users/D8E92~1.JOV/AppData/Local/Temp/anonymous16809897758470349759webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:846)\r\n",
+              "duration": 11126215967,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "user wants to logout",
+            "match": {
+              "location": "HeaderSteps.clickLogOut()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "rp valid user registered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 3
+                }
+              ],
+              "location": "RegisterSteps.userRegistered(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "rp user did not register again",
+            "match": {
+              "location": "RegisterSteps.validationRegistrationUser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1964529128,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1835905333,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1874416638,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "User writes passwords during registration",
+        "description": "",
+        "id": "register-user;user-writes-passwords-during-registration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 434638358,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4446376269,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "rp user required fields filled valid without password and confirm password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 31
+                }
+              ],
+              "location": "RegisterSteps.filledFieldWithoutPasswordRandom(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2225509491,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "rp user filled password \u003c6 and confirm password \u003c6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003c6",
+                  "offset": 24
+                },
+                {
+                  "val": "\u003c6",
+                  "offset": 48
+                }
+              ],
+              "location": "RegisterSteps.filledFieldPasswords(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1110873568,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "rp user press button sign up",
+            "match": {
+              "location": "RegisterSteps.clickButtonSignUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1025247915,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "rp password is not accept",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 12
+                }
+              ],
+              "location": "RegisterSteps.validationPassword(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3637246605,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1887891372,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1792933929,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "User writes passwords during registration",
+        "description": "",
+        "id": "register-user;user-writes-passwords-during-registration;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 464509643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4365734664,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "rp user required fields filled valid without password and confirm password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 31
+                }
+              ],
+              "location": "RegisterSteps.filledFieldWithoutPasswordRandom(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2182693678,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "rp user filled password valid and confirm password invalid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 24
+                },
+                {
+                  "val": "invalid",
+                  "offset": 51
+                }
+              ],
+              "location": "RegisterSteps.filledFieldPasswords(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1120397927,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "rp user press button sign up",
+            "match": {
+              "location": "RegisterSteps.clickButtonSignUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1021395960,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "rp password is not accept",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is not",
+                  "offset": 12
+                }
+              ],
+              "location": "RegisterSteps.validationPassword(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2905956763,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "HeaderSteps.goToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2070318525,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on header page user wants to sign up",
+            "match": {
+              "location": "HeaderSteps.goToRegisterPage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1842242485,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "User writes passwords during registration",
+        "description": "",
+        "id": "register-user;user-writes-passwords-during-registration;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 436880639,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4506286095,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "rp user required fields filled valid without password and confirm password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 31
+                }
+              ],
+              "location": "RegisterSteps.filledFieldWithoutPasswordRandom(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2241234468,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "rp user filled password valid and confirm password valid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "valid",
+                  "offset": 24
+                },
+                {
+                  "val": "valid",
+                  "offset": 51
+                }
+              ],
+              "location": "RegisterSteps.filledFieldPasswords(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1207058676,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "rp user press button sign up",
+            "match": {
+              "location": "RegisterSteps.clickButtonSignUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1033134440,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "rp password is accept",
+            "match": {
+              "arguments": [
+                {
+                  "val": "is",
+                  "offset": 12
+                }
+              ],
+              "location": "RegisterSteps.validationPassword(String)"
             },
             "keyword": "Then "
           }

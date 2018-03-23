@@ -1,17 +1,19 @@
 package pages;
 
+import helper.Helper;
 import org.openqa.selenium.WebDriver;
 
-public class AccountPage extends HeaderPage {
+import java.util.Properties;
 
-    private final String URL = "https://www.phptravels.net/account/";
+public class AccountPage extends HeaderPage {
+    private static Properties propertiesFile = Helper.readProperties("linksPage.properties");
 
     public AccountPage(WebDriver driver){
         super(driver);
     }
 
-    public String getURL() {
-        return URL;
+    public String getUrl() {
+        return propertiesFile.getProperty("accountPage", "");
     }
 
 }
