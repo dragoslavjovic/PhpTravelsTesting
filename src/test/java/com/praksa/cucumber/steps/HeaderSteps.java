@@ -95,6 +95,7 @@ public class HeaderSteps {
     public HeaderSteps goToToursPage() throws InterruptedException {
         headerPage = new HeaderPage(driver);
          toursPage = headerPage.clickTours();
+         Thread.sleep(1000);
         return this;
     }
 

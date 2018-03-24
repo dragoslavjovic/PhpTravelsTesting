@@ -47,7 +47,6 @@ public class Drivers {
     }
 
     public static void exitBrowser() {
-        driver.close();
         driver.quit();
     }
 }

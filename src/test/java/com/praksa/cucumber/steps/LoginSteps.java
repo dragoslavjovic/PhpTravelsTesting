@@ -41,7 +41,7 @@ public class LoginSteps{
     @Then("^on login page user (.*) logged$")
     public void validationLogin(String isLogged) throws InterruptedException {
         if (("is").equals(isLogged)) {
-            Thread.sleep(1500);
+            Thread.sleep(2000);
             Assert.assertTrue("User is not logged!", accountPage.getUrl().equals(driver.getCurrentUrl()));
         } else {
             Assert.assertFalse("User is logged!", accountPage.getUrl().equals(driver.getCurrentUrl()));
