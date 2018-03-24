@@ -53,7 +53,7 @@ public class LoginPage extends HeaderPage {
     }
 
     public void clickSignUpButton() throws InterruptedException {
-        WebElement signUp = getWebElement(By.xpath(propertiesFile.getProperty("signup", "")));
+        WebElement signUp = getWebElement(By.xpath(propertiesFile.getProperty("signupbutton", "")));
         Thread.sleep(1000);
         signUp.click();
         Thread.sleep(2000);
